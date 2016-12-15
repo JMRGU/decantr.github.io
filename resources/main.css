@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+* {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0;
+}
+
+ul.nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2196F3;
+}
+
+ul.nav li {
+    list-style-type: none;
+    float: left;
+}
+
+ul.nav li a {
+    display: block;
+    color: lightgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.nav li a:hover:not(.active) {
+    background-color: #455A64;
+}
+
+ul.nav li a.active {
+    background-color: #006064;
+}
+
+ul.nav li.right {
+    float: right;
+}
+
+.main {
+    background-image: url('images/robothand.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+
+.main span {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background-color: #607D8B;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.main span h3{
+    font-size: 2em;
+    color: lightgrey;
+    text-align: center;
+    white-space: nowrap;
+}
